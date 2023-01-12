@@ -8,6 +8,20 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: red;
+}
+
+p {
+    font-size: 20px;
+}
+
 .nav-container {
     color: red;
     background-color: #F8C8DC;
@@ -35,6 +49,7 @@ body {
     display: flex;
     flex: 1;
     justify-content: flex-end;
+    align-items: center;
     gap: 50px;
 } 
 
@@ -48,13 +63,11 @@ body {
 }
 
 .hero {
-    border: 1px solid red;
     display: flex;
     gap: 20px;
 }
 
 .hero-text {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -64,10 +77,63 @@ body {
 }
 
 .hero-img {
-    border: 1px solid red;
     object-fit: contain;
     max-width: 50%;
     max-height: 100%;
     width: auto;
     height: auto;
+}
+
+.hero-paragraph {
+    color: #e1528e;
+    margin-bottom: 20px;
+}
+
+.hero-cta {
+    color: white;
+    background-color: red;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.list-container {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-img {
+    width: 300px;
+    height: 300px;
+    border: solid #F8C8DC 5px;
+    border-radius: 12px;
+}
+
+.list-text {
+    width: 300px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.quote-container {
+    height: 600px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
