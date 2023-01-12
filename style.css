@@ -36,4 +36,38 @@ body {
     flex: 1;
     justify-content: flex-end;
     gap: 50px;
+} 
+
+.hero-container {
+    color: red;
+    background-color: #F8C8DC;
+    font-size: 26px;
+    height: 600px;
+    padding: 20px 70px;
+    display: flex;
+}
+
+.hero {
+    border: 1px solid red;
+    display: flex;
+    gap: 20px;
+}
+
+.hero-text {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero-img {
+    border: 1px solid red;
+    object-fit: contain;
+    max-width: 50%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
 }
