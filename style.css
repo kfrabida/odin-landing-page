@@ -108,6 +108,7 @@ p {
 
 .list {
     display: flex;
+    flex-wrap: wrap;
     gap: 40px;
     margin-top: 40px;
 }
@@ -130,10 +131,27 @@ p {
     text-align: center;
 }
 
-.quote-container {
-    height: 600px;
-    background-color: gray;
+.quote-container { 
+    height: 400px;
+    color: #e1528e;
+    background-color: #F8C8DC;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 54px;
+    width: 60%;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-speaker {
+    width: 60%;
+    text-align: right;
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
 }
