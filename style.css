@@ -18,8 +18,15 @@ h2 {
     color: red;
 }
 
+h3 {
+    font-size: 28px;
+    font-weight: 500;
+    color: red;
+}
+
 p {
     font-size: 20px;
+    color: #e1528e;
 }
 
 .nav-container {
@@ -154,4 +161,34 @@ p {
     font-size: 32px;
     font-weight: bold;
     color: red;
+}
+
+.cta-container {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    width: 80%;
+    border-radius: 12px;
+    background-color: #F8C8DC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.cta-text {
+    display:flex;
+    flex-direction: column;
+}
+
+.cta-button {
+    background-color: red;
+    border-radius: 12px;
+    padding: 20px;
+    font-size: 24px;
+    color: white;
 }
